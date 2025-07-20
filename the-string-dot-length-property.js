@@ -1,30 +1,18 @@
-/*
-
-Objective:
-Practice using the .length property by calculating the length of
-multiple predefined strings and assigning the results to specific variables.
-
-Instructions:
-You will be provided with several predefined string variables.
-Your task is to:
-  - Use the .length property to calculate the length of each string.
-  - Assign the length of each string to its corresponding length variable.
-  - Ensure that each length variable contains the correct value.
-
-*/
-
-// Starter Code (Pre-filled):
+// Starter Code 
 // Predefined strings
 let stringOne = "Coding Bootcamp";
 let stringTwo = "JavaScript";
 let stringThree = "";
 
 // Your task: Assign the length of each string to the corresponding variable
-let lengthOne;   // Length of stringOne
-let lengthTwo;   // Length of stringTwo
-let lengthThree; // Length of stringThree
+let lengthOne = stringOne.length;
+let lengthTwo = stringTwo.length;
+let lengthThree = stringThree.length;
 
-// Your code here
+// Log the lengths
+console.log("Length of stringOne:", lengthOne);   // 16
+console.log("Length of stringTwo:", lengthTwo);   // 10
+console.log("Length of stringThree:", lengthThree); // 0
 
 
 
